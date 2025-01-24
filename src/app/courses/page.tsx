@@ -5,7 +5,7 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import courseData from '@/data/music_courses.json'
 import Link from "next/link";
 
-function page() {
+function CoursesPage() {
   return (
     <div className="min-h-screen bg-black py-8 pt-36">
       <h1 className="text-4xl md:text-5xl text-center font-sans font-bold mb-8 text-white">All Courses ({courseData.courses.length})</h1>
@@ -61,4 +61,4 @@ function page() {
   )
 }
 
-export default page
+export default CoursesPage

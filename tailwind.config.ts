@@ -15,8 +15,8 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
-      animation: {spotlight: "spotlight 2s ease .75s 1 forwards",  scroll:
-        "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",},
+      animation: {spotlight: "spotlight 2s ease .75s 1 forwards", scroll:"scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite"}, 
+       
       keyframes: {
         spotlight: {
           "0%": {
@@ -34,6 +34,7 @@ export default {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+        
       },
       colors: {
         background: "var(--background)",

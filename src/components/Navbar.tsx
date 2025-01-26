@@ -8,7 +8,7 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed sm:top-6 top-2 inset-x-0 sm:max-w-2xl max-w-lg sm:mx-auto mx-1 z-50 ", className)}
+      className={cn("fixed sm:top-6 top-2 inset-x-0 sm:max-w-2xl max-w-sm sm:mx-auto mx-1 z-50 ", className)}
     >
       <Menu setActive={setActive}>
         <Link href={"/"}>

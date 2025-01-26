@@ -20,7 +20,7 @@ function FeaturedCourses() {
     (course: Course) => course.isFeatured
   );
   return (
-    <div className="py-12 bg-zinc-900">
+    <div className="py-12 sm:px-0 px-3 bg-zinc-900">
       <div>
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">

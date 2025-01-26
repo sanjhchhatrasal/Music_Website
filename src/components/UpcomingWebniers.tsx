@@ -68,7 +68,7 @@ function UpcomingWebniers() {
                 }
             ))} />
             </div>
-            <div className="mt-10 text-center">
+            <div className="sm:mt-10 mt-5 sm:mb-0 mb-5 text-center">
           <Link href={"/"}
           className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
           >
